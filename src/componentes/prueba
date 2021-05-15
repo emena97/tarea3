@@ -1,0 +1,49 @@
+import React, {useEffect, useState} from 'react';
+import socket from './socket';
+
+const Flights = () => {
+
+    const [vuelos, setVuelos] = useState([]);
+
+    var seteado = 0;
+    var retornado = 0;
+
+    socket.emit("FLIGHTS");
+
+    const vuelos_cod = [] 
+
+    function guardar(elemento, index){
+        if (vuelos_cod.indexOf(elemento.code) === -1){
+            vuelos_cod.push(elemento.code);
+            vuelos.push(elemento);
+        }
+    }
+    
+    useEffect(() => {
+        socket.on("FLIGHTS", function(data){
+            console.log("vuelos");
+            console.log(vuelos_cod);
+            data.forEach(guardar);
+            console.log(vuelos);
+            if (seteado === 0){
+                console.log("aaaaaaaa");
+                seteado = 1;
+                setVuelos([...vuelos]);   
+            }
+        })
+    }, [vuelos])
+ 
+
+    return( 
+        vuelos.map((e, i) =>
+        <div key={i}>
+            {e.code}
+        </div>
+        ) 
+        
+    )
+
+
+}
+
+export default Flights;
