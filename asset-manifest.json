@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tarea3/static/css/main.3ae7edaa.chunk.css",
+    "main.js": "/tarea3/static/js/main.f96d962b.chunk.js",
+    "main.js.map": "/tarea3/static/js/main.f96d962b.chunk.js.map",
+    "runtime-main.js": "/tarea3/static/js/runtime-main.4ed5b20c.js",
+    "runtime-main.js.map": "/tarea3/static/js/runtime-main.4ed5b20c.js.map",
+    "static/css/2.c1e28d34.chunk.css": "/tarea3/static/css/2.c1e28d34.chunk.css",
+    "static/js/2.5dd6f328.chunk.js": "/tarea3/static/js/2.5dd6f328.chunk.js",
+    "static/js/2.5dd6f328.chunk.js.map": "/tarea3/static/js/2.5dd6f328.chunk.js.map",
+    "static/js/3.0949c853.chunk.js": "/tarea3/static/js/3.0949c853.chunk.js",
+    "static/js/3.0949c853.chunk.js.map": "/tarea3/static/js/3.0949c853.chunk.js.map",
+    "index.html": "/tarea3/index.html",
+    "static/css/2.c1e28d34.chunk.css.map": "/tarea3/static/css/2.c1e28d34.chunk.css.map",
+    "static/css/main.3ae7edaa.chunk.css.map": "/tarea3/static/css/main.3ae7edaa.chunk.css.map",
+    "static/js/2.5dd6f328.chunk.js.LICENSE.txt": "/tarea3/static/js/2.5dd6f328.chunk.js.LICENSE.txt",
+    "static/media/plane.png": "/tarea3/static/media/plane.1cf09d49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ed5b20c.js",
+    "static/css/2.c1e28d34.chunk.css",
+    "static/js/2.5dd6f328.chunk.js",
+    "static/css/main.3ae7edaa.chunk.css",
+    "static/js/main.f96d962b.chunk.js"
+  ]
+}
