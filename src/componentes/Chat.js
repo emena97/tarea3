@@ -14,6 +14,7 @@ const Chat = ({nombre}) =>{
             setMensajes([...mensajes, data]);
         })
     }, [mensajes])
+    
     const divRef = useRef(null);
     useEffect(() =>{
         divRef.current.scrollIntoView({behavior: 'smooth'})
