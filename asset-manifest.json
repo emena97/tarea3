@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tarea3/static/css/main.3ae7edaa.chunk.css",
-    "main.js": "/tarea3/static/js/main.ce3cfd21.chunk.js",
-    "main.js.map": "/tarea3/static/js/main.ce3cfd21.chunk.js.map",
+    "main.js": "/tarea3/static/js/main.d2ab8fe8.chunk.js",
+    "main.js.map": "/tarea3/static/js/main.d2ab8fe8.chunk.js.map",
     "runtime-main.js": "/tarea3/static/js/runtime-main.4ed5b20c.js",
     "runtime-main.js.map": "/tarea3/static/js/runtime-main.4ed5b20c.js.map",
     "static/css/2.c1e28d34.chunk.css": "/tarea3/static/css/2.c1e28d34.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.5dd6f328.chunk.js",
     "static/css/main.3ae7edaa.chunk.css",
-    "static/js/main.ce3cfd21.chunk.js"
+    "static/js/main.d2ab8fe8.chunk.js"
   ]
 }
