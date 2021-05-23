@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useRef} from 'react';
 import socket from './socket';
 import '../App.css'
-
+var fecha;
 const Chat = ({nombre}) =>{
 
     const [mensaje, setMensaje] = useState("");
@@ -11,6 +11,8 @@ const Chat = ({nombre}) =>{
         //aca le cambie mensaje por message
         socket.on("CHAT", function(data) {
             console.log(data.message, data.name, data.date);
+            var fecha = Date(data.date);
+            data.date = fecha;
             setMensajes([...mensajes, data]);
         })
     }, [mensajes])
@@ -35,7 +37,7 @@ const Chat = ({nombre}) =>{
     return(
         <div className="chat_general">
             <div className="chat">
-                {mensajes.map((e, i) => <div key={i}><div>{Date(e.date)}</div>{e.name}: {e.message}</div>)}
+                {mensajes.map((e, i) => <div key={i}><div>{e.date}</div>{e.name}: {e.message}</div>)}
                 <div ref={divRef}></div>
             </div>
 
